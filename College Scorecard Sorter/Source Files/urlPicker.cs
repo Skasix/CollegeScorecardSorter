@@ -22,10 +22,10 @@ public static class urlPicker
         return number;
     }
 
-    public static void getApiKey()
+    public static void getAPIKey()
     {
         Console.Write("Unfortunately, I can't give away my data.gov API Key. Please enter your API key:");
-        APIKey = Console.ReadLine();
+        APIKey = "&api_key=" + Console.ReadLine();
     }
 
     public static void UpdateFilter(string filters)
